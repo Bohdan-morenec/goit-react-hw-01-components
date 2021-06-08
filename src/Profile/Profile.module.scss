@@ -1,0 +1,35 @@
+.profile {
+  width: 360px;
+  text-align: center;
+  background: lightyellow;
+  color: cadetblue;
+}
+
+.profileList {
+  display: flex;
+  text-align-last: center;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.profileList li {
+  width: 100px;
+  display: inline-grid;
+  padding: 10px;
+  color: cadetblue;
+  background: beige;
+  border: 1px solid;
+}
+.profileListSpam {
+  color: darkturquoise;
+}
+.descriptioImg {
+  width: 100px;
+  border-radius: 50%;
+}
+.profileName {
+  color: navy;
+  font-size: 20px;
+  font-weight: bold;
+}
