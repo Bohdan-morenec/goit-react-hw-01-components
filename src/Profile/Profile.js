@@ -21,15 +21,15 @@ const Profile = ({
     </div>
 
     <ul className={styles.profileList}>
-      <li key={"id-1"} className={styles.profileItem}>
+      <li key="id-1" className={styles.profileItem}>
         <span>Followers</span>
         <span className={styles.profileListSpam}>{stats.followers}</span>
       </li>
-      <li key={"id-2"}>
+      <li key="id-2">
         <span>Views</span>
         <span className={styles.profileListSpam}>{stats.views}</span>
       </li>
-      <li key={"id-3"}>
+      <li key="id-3">
         <span>Likes</span>
         <span className={styles.profileListSpam}>{stats.likes}</span>
       </li>

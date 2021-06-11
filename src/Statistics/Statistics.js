@@ -1,5 +1,5 @@
 import styles from "./statisticalData.module.scss";
-import randColor from "./randColor";
+import RandColor from "./randColor";
 import PropTypes from "prop-types";
 
 const statisticalData = ({ stats, title }) => (
@@ -11,7 +11,7 @@ const statisticalData = ({ stats, title }) => (
         <li
           key={id}
           className={styles.item}
-          style={{ backgroundColor: randColor() }}
+          style={{ backgroundColor: RandColor() }}
         >
           <span className={styles.label}>{label}</span>
           <span className={styles.percentage}>{percentage}%</span>
